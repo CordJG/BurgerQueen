@@ -13,6 +13,12 @@ public class Product {
         this.kcal = kcal;
     }
 
+    public Product(String name,int price, int kcal) {
+        this.name = name;
+        this.price = price;
+        this.kcal = kcal;
+    }
+
     public String getName() {
         return name;
     }
